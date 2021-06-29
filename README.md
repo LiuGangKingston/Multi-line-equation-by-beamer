@@ -19,5 +19,5 @@ it can be done as
       ...
       \end{frame}
 
-Although some error messages would be reported during compiling the Latex file, the slides can be generated properly. 
+Although some error messages would be reported during compiling the Latex file, the slides can be generated properly. As an example, in the slides of the last frame, all equal signs are aligned and equation numbers are generated for each line automatically. 
 
