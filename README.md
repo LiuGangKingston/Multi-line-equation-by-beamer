@@ -1,5 +1,5 @@
 # Multi-line-equation-by-beamer
-Many people use LaTeX mainly for its ability to generate good-looking and consistent equations. As a LaTeX documentclass, beamer can further help to make frames and slides for presentations, where no problem for single-line euqations at all. However, after many tests, I believe the following way is the only reasonable one for presenting a multi-line equation line by line with beamer, with no unexpected manual effort. 
+Many people use LaTeX mainly for its ability to generate good-looking and consistent mathematical equations. As a LaTeX documentclass, beamer can further help to make frames and slides for presentations, where no problem for single-line euqations. However, after many tests, I believe that the following way is the only reasonable one for presenting a multi-line equation line by line with beamer, with no additional manual effort. 
 
 By defining 
 
@@ -21,5 +21,5 @@ it can be done as
       ...
       \end{frame}
 
-Although some error messages would be reported during compiling the LaTeX file, the slides can be generated properly. As an example, in the slides of the last frame, all equal signs are aligned and equation numbers are generated for each line without any further manual interference. 
+Although some error messages would be reported during compiling the LaTeX file, the slides can be generated properly. As in the last frame of the example, the lines of the equatioin is increasingly shown with the slide runs, and all equal signs are aligned and equation numbers are generated for each line automatically. 
 
