@@ -23,7 +23,7 @@ it can be done as
 
 Although some error messages would be reported during compiling the LaTeX file, the slides can be generated properly. As in the last frame of the example, the lines of the equatioin is increasingly shown with the slide runs, and all equal signs are aligned and equation numbers are generated for each line automatically. 
 
-Supposing one would like to copy such equations to a file for LaTeX article editing later, the effect of all "\pauseditem" can be nulled by redefine "\newcommand{\pauseditem}{}". 
+Supposing one would like to copy such equations to a file for LaTeX article editing later, the effect of all "\pauseditem" can be nulled by redefining "\newcommand{\pauseditem}{}". 
 
 Furthermore, this LaTeX example file also sets 16:9 screen, text and background colors, and article-look equation.
 
