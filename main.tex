@@ -9,7 +9,10 @@
 \usebeamercolor[fg]{normal text}
 \setbeamercolor{frametitle}{fg=yellow}
 \usefonttheme[onlymath]{serif}
-\newcommand{\pauseditem}{\pause \item[]}
+% Since only \pause does the trick, change it 
+% \newcommand{\pauseditem}{\pause \item[]}
+% into 
+\newcommand{\pauseditem}{\pause}
 
 
 \newcommand{\Tup}[0]{\mathbf S}
@@ -120,7 +123,8 @@ where $\beta=1/(kT)$, and $k$ and $Z$ are the Boltzmann constant and the system 
 \begin{frame}
 {The net force by the left half on the right half of the one-dimensional crystal}
 \vspace{-1.2cm}
-\begin{itemize}
+% The environment "itemize" in multi-line equations seems no use but causes problems, then removed.
+%\begin{itemize}
     \begin{eqnarray}
            F_{L\rightarrow R} \left( a \right) 
            &=&  - \frac{d}{da} E_p^{(L-J)} \left( a \right) \\
@@ -132,7 +136,8 @@ where $\beta=1/(kT)$, and $k$ and $Z$ are the Boltzmann constant and the system 
                            { 6 \left ( \frac{\lambda} { j a} \right ) }^{6} 
                            \right ] 
     \end{eqnarray}
-\end{itemize}
+% The environment "itemize" in multi-line equations seems no use but causes problems, then removed.
+%\end{itemize}
 \end{frame}
 
 
